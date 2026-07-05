@@ -1,0 +1,26 @@
+{
+    "version": "0.1.0",
+    "description": "Command-line SAP OData explorer: service discovery, metadata browsing, queries, annotations lint, offline EDMX",
+    "homepage": "https://github.com/kts982/sap-odata-explorer",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kts982/sap-odata-explorer/releases/download/v0.1.0/sap-odata.exe",
+            "hash": "5990cb2a9f9805fb1242d2a82bb49a2bb4a3529297a5f728a904531e6a369a5d"
+        }
+    },
+    "bin": "sap-odata.exe",
+    "checkver": {
+        "github": "https://github.com/kts982/sap-odata-explorer"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kts982/sap-odata-explorer/releases/download/v$version/sap-odata.exe"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/kts982/sap-odata-explorer/releases/download/v$version/SHA256SUMS.txt"
+        }
+    }
+}
