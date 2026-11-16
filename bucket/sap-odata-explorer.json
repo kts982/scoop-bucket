@@ -1,12 +1,12 @@
 {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "SAP OData explorer desktop app (portable): catalog discovery, metadata browsing, query tooling, offline EDMX library",
     "homepage": "https://github.com/kts982/sap-odata-explorer",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kts982/sap-odata-explorer/releases/download/v0.2.1/SAP-OData-Explorer_0.2.1_portable.exe#/sap-odata-explorer.exe",
-            "hash": "a35ac4b636c32748a3aef5148964b43865f0644fb760a7ccdce6538dd295f2df"
+            "url": "https://github.com/kts982/sap-odata-explorer/releases/download/v0.2.2/SAP-OData-Explorer_0.2.2_portable.exe#/sap-odata-explorer.exe",
+            "hash": "880fdee27285fd239b7a878d1caccb365cb305cd5f56249735efbfdaf9e91cf3"
         }
     },
     "bin": "sap-odata-explorer.exe",
